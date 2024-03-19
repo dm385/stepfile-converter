@@ -1,6 +1,6 @@
 # Step file converter
 
-Convert cad files with `ClassCAD` and `buerli`.
+Convert step files with `ClassCAD` and `buerli`.
 
 The converter runs directly in a `node.js` process.
 
