@@ -1,4 +1,4 @@
-# CAD File Converter
+# Step file converter
 
 Convert cad files with `ClassCAD` and `buerli`.
 
