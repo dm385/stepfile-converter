@@ -7,9 +7,9 @@ The converter runs directly in a `node.js` process.
 ## Installation
 
 ```shell
-mkdir cadfile-converter
-cd cadfile-converter
-git clone https://github.com/dm385/cadfile-converter .
+mkdir stepfile-converter
+cd stepfile-converter
+git clone https://github.com/dm385/stepfile-converter .
 npm i
 ```
 
