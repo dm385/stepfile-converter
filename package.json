@@ -1,0 +1,32 @@
+{
+  "name": "cadfile-converter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development ts-node ./src/main.ts",
+    "start": "cross-env NODE_ENV=production ts-node ./src/main.ts",
+    "prettify": "npx prettier . --write"
+  },
+  "keywords": [
+    "cad",
+    "classcad",
+    "buerli"
+  ],
+  "author": "dm385",
+  "license": "MIT",
+  "dependencies": {
+    "@buerli.io/classcad": "0.11.0",
+    "@buerli.io/headless": "0.11.0",
+    "dotenv": "16.4.5",
+    "three": "0.162.0",
+    "three-stdlib": "2.29.5"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.29",
+    "cross-env": "7.0.3",
+    "prettier": "3.2.5",
+    "ts-node": "10.9.2",
+    "typescript": "5.4.2"
+  }
+}
