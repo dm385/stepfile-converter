@@ -68,6 +68,7 @@ const main = async () => {
     } else {
       writeFile(outputFile, JSON.stringify(result))
     }
+    console.info(`output file: ${outputFile}`)
     cad.destroy()
   })
 }
